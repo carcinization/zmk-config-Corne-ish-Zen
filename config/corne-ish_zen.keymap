@@ -136,27 +136,27 @@
 
     default_layer {
             bindings = <
-    &kp Q &kp W &kp F &kp P &kp G &kp J &kp L &kp U &kp Y &kp BSPC
-    &kp A &kp R &kp S &kp T &hm2 CLCK D &kp H &kp N &kp E &kp I &kp O
-    &hm LCTL Z &hm LALT X &hm2 LGUI C &kp V &kp B &kp K &kp M &com_col SEMI COMMA &com_col COLON DOT &kp RET
+   &none &kp Q &kp W &kp F &kp P &kp G &kp J &kp L &kp U &kp Y &kp BSPC &none
+   &none &kp A &kp R &kp S &kp T &hm2 CLCK D &kp H &kp N &kp E &kp I &kp O &none
+   &none &hm LCTL Z &hm LALT X &hm2 LGUI C &kp V &kp B &kp K &kp M &com_col SEMI COMMA &com_col COLON DOT &kp RET &none
     &kp LCTL &mo 2 &bh 1 SPACE &kp LSHFT &mo 1 &kp DEL
             >;
         };
 
     num_sym {
             bindings = <
-    &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
-    &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT &kp UP &kp DOWN &kp RIGHT
-    &kp MINUS &kp PLUS &kp EQUAL &kp BSLH &kp GRAVE &sk LG(LSHFT) &sk RALT &trans &trans &kp FSLH
+   &none &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &none
+   &none &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT &kp UP &kp DOWN &kp RIGHT &none
+   &none &kp MINUS &kp PLUS &kp EQUAL &kp BSLH &kp GRAVE &sk LG(LSHFT) &sk RALT &trans &trans &kp FSLH &none
     &none &trans &trans &trans &trans &none
             >;
         };
 
     FnBT {
             bindings = <
-    &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10
-    &bt BT_SEL_CMD 0 &bt BT_SEL_CMD 1 &bt BT_SEL_CMD 2 &bt BT_SEL_CMD 3 &none &none &none &none &none &none
-    &bt BT_CLR &out OUT_BLE &out OUT_USB &none &none &none &none &none &none &none
+    &none &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &none
+    &none &bt BT_SEL_CMD 0 &bt BT_SEL_CMD 1 &bt BT_SEL_CMD 2 &bt BT_SEL_CMD 3 &none &none &none &none &none &none &none
+    &none &bt BT_CLR &out OUT_BLE &out OUT_USB &none &none &none &none &none &none &none &none
     &bt BT_CLR &none &none &none &none &none
             >;
         };
