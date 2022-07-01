@@ -2,13 +2,13 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/LOWPROKB
-    - name: caksoylar
-      url-base: https://github.com/caksoylar
+    - name: carcinization
+      url-base: https://github.com/carcinization
 
   projects:
     - name: zmk
-      remote: caksoylar
-      revision: caksoylar/zen+969+1098
+      remote: carcinization
+      revision: corneish-zen
       import: app/west.yml
   self:
     path: config
